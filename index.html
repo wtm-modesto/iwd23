@@ -60,6 +60,43 @@
                 >Donate</a
               >
             </li>
+            <li>
+              <!-- Button that overlays a modal window -->
+              <!-- Noscript content for added SEO -->
+              <noscript
+                ><a
+                  href="https://www.eventbrite.com/e/international-womens-day-tickets-528115155647"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Buy Tickets on Eventbrite</a
+                ></noscript
+              >
+              <!-- You can customize this button any way you like -->
+              <button
+                id="eventbrite-widget-modal-trigger-528115155647"
+                type="button"
+                class="btn btn-info fw-bold"
+              >
+                Register
+              </button>
+
+              <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+              <script type="text/javascript">
+                var exampleCallback = function () {
+                  console.log("Order complete!");
+                };
+
+                window.EBWidgets.createWidget({
+                  widgetType: "checkout",
+                  eventId: "528115155647",
+                  modal: true,
+                  modalTriggerElementId:
+                    "eventbrite-widget-modal-trigger-528115155647",
+                  onOrderComplete: exampleCallback,
+                });
+              </script>
+            </li>
           </ul>
         </div>
       </div>
@@ -78,15 +115,55 @@
           </div>
         </div>
         <div class="col-lg-8 text-center">
-          <h1 class="fw-bold">International Womxn's Day 2023</h1>
+          <h1 class="fw-bold">International Women's Day 2023</h1>
           <h4>Friday, March 10, 2023</h4>
           <h4>4:00 PM - 8:00 PM PST</h4>
           <h5>
-            <a class="event-map text-warning fs-5" href="" target="blank"
-              ><i class="bi bi-geo-alt-fill text-warning fs-4"></i></a
-            >Location Name TBD
+            <a
+              class="event-map text-warning fs-5"
+              href="https://goo.gl/maps/CcyWZARxBtSyq1LG7"
+              target="blank"
+              ><i class="bi bi-geo-alt-fill text-info fs-4"></i></a
+            >Modesto Junior College West Campus, MSR - 2201
           </h5>
-          <h5>Location Address TBD</h5>
+          <h5>2201 Blue Gum Ave, Modesto, CA 95358</h5>
+          <div>
+            <!-- Button that overlays a modal window -->
+            <!-- Noscript content for added SEO -->
+            <noscript
+              ><a
+                href="https://www.eventbrite.com/e/international-womens-day-tickets-528115155647"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Buy Tickets on Eventbrite</a
+              ></noscript
+            >
+            <!-- You can customize this button any way you like -->
+            <button
+              id="eventbrite-widget-modal-trigger-528115155647"
+              type="button"
+              class="btn btn-info fw-bold"
+            >
+              Register
+            </button>
+
+            <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+            <script type="text/javascript">
+              var exampleCallback = function () {
+                console.log("Order complete!");
+              };
+
+              window.EBWidgets.createWidget({
+                widgetType: "checkout",
+                eventId: "528115155647",
+                modal: true,
+                modalTriggerElementId:
+                  "eventbrite-widget-modal-trigger-528115155647",
+                onOrderComplete: exampleCallback,
+              });
+            </script>
+          </div>
         </div>
       </div>
     </section>
@@ -128,7 +205,7 @@
       <!-- Review/update Sponsors and links -->
       <a
         type="button"
-        class="btn btn-warning fw-bold"
+        class="btn btn-info fw-bold"
         href="https://www.amazon.com/hz/wishlist/ls/18C0XPNU9GP7W"
         target="_blank"
       >
