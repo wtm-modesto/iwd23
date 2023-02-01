@@ -90,7 +90,13 @@ body {
     height: 248px;
     width: 248px;
     object-fit: cover;
-    object-position: center top
+    object-position: center top;
+}
+.speakerMain-imageBtm {
+    height: 248px;
+    width: 248px;
+    object-fit: cover;
+    object-position: center bottom;
 }
 .card-body { 
     height: 210px;
