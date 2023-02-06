@@ -77,9 +77,24 @@ body {
 }
 
 /* About Section */
+.about-title {
+    font-family: 'Permanent Marker';
+    color: #4890F1;
+}
 
+/* Theme Section */
+.theme-title {
+    font-family: 'Permanent Marker';
+}
+ul.no-bullets {
+    list-style-type: none;
+}
 
 /* Speakers Sections*/
+.speaker-title {
+    font-family: 'Permanent Marker';
+    color: #4890F1;
+}
 .speaker-grid {
     display: flex;
     align-items: center;
@@ -106,39 +121,12 @@ body {
     background-color: black; 
 }
 
-/* Sessions Section */
-.info-grid {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-} /*also used in Attend Section*/
-
-.session-box {
-    display: flex;
-    align-items: center;
-    padding-top: 30px;
-    flex-direction: column;
-    height: 350px;
-    width: 310px;
-    margin: 5px;
-    border-radius: 10px;
-    background-color: black;
-}
-
-/* Why Attend Section */
-.why-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 300px;
-    margin: 5px;
-    border-radius: 10px;
-    background-color: black;
-}
-
 /*Sponsors Section*/
+.sponsor-title {
+    font-family: 'Permanent Marker';
+    /* color: #35eab1; */
+    color: #4890F1;
+}
 .sponsor-grid {
     display: flex;
     justify-content: center;
