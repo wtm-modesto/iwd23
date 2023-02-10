@@ -142,7 +142,7 @@ ul.no-bullets {
 /* Media Queries */
 @media (max-width: 380px) {
     .brand {
-        width: 100px;
+        width: 80px;
     }
 }
 @media (max-width: 576px) {
