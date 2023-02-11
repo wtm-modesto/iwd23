@@ -1,9 +1,6 @@
 /* Global */
 body {
     font-family: 'Roboto', sans-serif;
-    /* background-image: url(/iwd23/img/bg_kseniya-lapteva-kOajnscQxW8-unsplash.jpg);
-    background-position-y: bottom; 
-    background-position-x: center; */
 }
 
 /* NavBar */
@@ -32,7 +29,6 @@ body {
   display: inline-block;
   text-transform: uppercase;
   font-weight: bold;
-  /* color: #4FA8F9; */
   color: black;
   letter-spacing: 3px;
   width: auto;
@@ -81,6 +77,7 @@ body {
 /* Theme Section */
 .theme-title {
     font-family: 'Permanent Marker';
+    color: #4890F1;
 }
 ul.no-bullets {
     list-style-type: none;
