@@ -128,7 +128,12 @@ ul.no-bullets {
 .sponsor-image {
     width: 20%;
     height: 20%;
-    padding: 10px;
+    /* padding: 10px; */
+}
+.sponsor-image-sized {
+    width: 20%;
+    height: 20%;
+    padding: 16px;
 }
 
 /* Footer */
@@ -146,4 +151,9 @@ ul.no-bullets {
     .sponsor-image {
         width: 30%;
         height: 20%;
-    }}
+    }
+    .sponsor-image-sized {
+        width: 30%;
+        height: 20%;
+    }
+}
